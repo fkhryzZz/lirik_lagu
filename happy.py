@@ -33,7 +33,7 @@ def jalanin_lirik () :
     ]
 
     delay = [0.3, 0.26, 0.2, 0.3, 0.25, 0.3, 0.3, 0.2, 0.3, 0.12, 0.2, 0.21, 0.21, 0.21, 0.21, 0.21, 0.21, 0.21, 0.21, 0.21, 0.21, 0.21, 0.21, 0.26]
-    print("\n==Aku Dah Lupa - MikkyZia, Fadli==")
+
     time.sleep(0.1)
     for i, (baris_lagu, delay_karakter) in enumerate(lirik):
         for karakter in baris_lagu :
@@ -42,7 +42,6 @@ def jalanin_lirik () :
             time.sleep(delay_karakter)
         time.sleep(delay[i])    
         print('')
-    print("// Code by ....")
 
 
 jalanin_lirik()
